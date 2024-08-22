@@ -20,14 +20,94 @@
           theme: {
             extend: {
               colors: {
-                 
-              }
+                'btn-green': 'rgba(171, 239, 95, 0.5)',
+      },
+              fontFamily: {
+                'manrope': ["Manrope", 'sans-serif'],
+              },
+              borderRadius: {
+                'custom-56': '56px',
+              },
             }
           }
         }
       </script>
 </head>
 <body>
-    
+  <header class="w-11/12 mx-auto bg-gradient-to-r from-white to-red-50 border-2 border-white">
+    <section class="w-11/12 mx-auto">
+        <!-- navbar -->
+         <nav>
+            <div class="mt-12 flex justify-between items-center">
+                <div>
+                    <a class="btn btn-ghost text-3xl">
+                        <i class="fa-solid fa-arrow-right rounded-full bg-green-400 border p-1 -rotate-45"></i>Rinterio</a>
+                </div>
+                <div>
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1]   shadow">
+                      <li><a>Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>Blogs</a></li>
+                      <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 ">
+                    <li class="font-extrabold text-gray-700"><a>Home</a></li>
+                    <li class="font-normal text-gray-500"><a>Services</a></li>
+                    <li class="font-normal text-gray-500"><a>Portfolio</a></li>
+                    <li class="font-normal text-gray-500"><a>Blogs</a></li>
+                    <li class="font-normal text-gray-500"><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="hidden lg:contents">
+                  <div class="flex justify-around items-center p-1 gap-3">
+                    <i class="fa-solid fa-magnifying-glass  bg-gray-200 border-2 rounded-full p-3 text-gray-500 border-gray-200 text-xl"></i>
+                    <i class="fa-solid fa-cart-shopping bg-gray-200 border-2 rounded-full p-3 text-gray-500 border-gray-200 text-xl"></i>
+                    <button class="bg-lime-400 rounded-3xl py-3 px-5 text-xl font-extrabold items-center">Book Consult
+                      <i class="fa-solid fa-arrow-right rounded-3xl border-black bg-gray-900 text-white p-2 -rotate-45"></i></button>
+                  </div>
+                </div>
+              </div>
+         </nav>
+         <!-- banner -->
+          <div class="my-8 lg:my-14 flex flex-col items-center gap-6">
+            <!-- img -->
+             <div class="flex-1">
+              <img class="w-11/12 lg:w-max mx-auto" src="./assets/banner.png" alt="">
+             </div>
+             <!-- text -->
+              <div class="flex-1">
+                <h1 class="lg:w-11/12 mx-auto text-3xl lg:text-6xl font-extrabold text-center">A barn house of this design has a striking appearance</h1>
+                <p class="lg:w-9/12 mx-auto font-medium text-sm lg:text-base text-center text-gray-600 my-7">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <div class="w-max mx-auto">
+                  <button class="bg-btn-green rounded-full w-80 md:w-60 lg:w-60 mx-auto py-3 px-8 ml-1 text-xl font-bold items-center text-gray-900">Book Consult
+                    <i class="fa-solid fa-arrow-right rounded-3xl border-black bg-lime-400 text-black p-2 -rotate-45"></i></button>
+                </div>
+              </div>
+          </div>
+    </section>
+   </header>
+   <main></main>
+   <footer></footer>
 </body>
 </html>
