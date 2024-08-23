@@ -29,9 +29,9 @@
               fontFamily: {
                 'manrope': ["Manrope", 'sans-serif'],
               },
-              // backgroundImage: {
-              //   'we-design': "url('../assets/ra')",
-              // },
+              backgroundImage: {
+                'b-project': "url('./assets/bg.jpg')",
+              },
             }
           }
         }
@@ -88,7 +88,8 @@
                     <i class="fa-solid fa-magnifying-glass  bg-gray-200 border-2 rounded-full p-3 text-gray-500 border-gray-200 text-xl"></i>
                     <i class="fa-solid fa-cart-shopping bg-gray-200 border-2 rounded-full p-3 text-gray-500 border-gray-200 text-xl"></i>
                     <button class="bg-lime-400 rounded-3xl py-3 px-5 text-xl font-extrabold items-center">Book Consult
-                      <i class="fa-solid fa-arrow-right rounded-3xl border-black bg-gray-900 text-white p-2 -rotate-45"></i></button>
+                      <i class="fa-solid fa-arrow-right rounded-3xl border-black bg-gray-900 text-white p-2 -rotate-45"></i>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -112,7 +113,7 @@
     </section>
    </header>
    <!-- main section -->
-   <main class="w-11/12 mx-auto border border-gray-50 bg-gray-50 h-[8500px]">
+   <main class="w-11/12 mx-auto border border-gray-50 bg-gray-50">
     <!-- Design Section -->
     <section class="w-11/12 mx-auto hidden">
       <div class="flex flex-col lg:flex-row my-24 gap-9">
@@ -149,7 +150,7 @@
       </div>
     </section>
     <!-- Works Section -->
-     <section class="w-11/12 mx-auto py-24">
+     <section class="w-11/12 mx-auto my-11 lg:my-24">
       <!-- text -->
        <div>
         <p class="border border-white rounded-3xl bg-white py-2 px-4 w-40 mx-auto font-bold text-gray-600"><i class="fa-solid fa-arrow-right"></i>How we works</p>
@@ -157,7 +158,7 @@
         <p class="lg:w-3/6 mx-auto text-sm lg:text-base font-medium text-gray-600 text-center">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
        </div>
        <!-- card -->
-        <div class="grid grid-rows-4 lg:grid-cols-4 gap-6 mt-6">
+        <div class="grid lg:grid-cols-4 gap-6 mt-6">
           <!-- 1 st card -->
            <div class="p-6 rounded-2xl bg-b-pink">
             <img src="./assets/concept.png" alt="">
@@ -187,6 +188,47 @@
            </div>
         </div>
      </section>
+
+     <!-- Next Project Section -->
+      <section class="bg-b-project bg-no-repeat bg-cover border-4 lg:border-8 border-white bg-opacity-5">
+        
+        <div class="px-6 py-8 lg:px-0 lg:py-24 lg:w-3/4 mx-auto my-11 lg:my-24">
+          <!-- text -->
+          <div>
+            <p class=" rounded-3xl bg-btn-green py-2 px-4 w-40 mx-auto font-bold text-gray-600"><i class="fa-solid fa-arrow-right"></i>How we works</p>
+            <h1 class="text-2xl lg:text-5xl font-bold text-gray-800 text-center my-5">Let’s Discuss Next Project</h1>
+            <p class="w-full lg:w-5/6 mx-auto text-sm lg:text-base font-medium text-gray-600 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          </div>
+          <!-- form -->
+           <div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 mt-8">
+              <div>
+                <input class="p-5 border-none outline-none bg-slate-100 rounded-full w-full font-medium text-gray-200" type="text" placeholder="First Name*">
+              </div>
+              <div>
+                <input class="p-5 border-none outline-none bg-slate-100 rounded-full w-full font-medium text-gray-200" type="text" placeholder="Last Name*">
+              </div>
+              <div>
+                <input class="p-5 border-none outline-none bg-slate-100 rounded-full w-full font-medium text-gray-200" type="number" placeholder="Phone Number*">
+              
+              </div>
+              <div>
+                <input class="p-5 border-none outline-none bg-slate-100 rounded-full w-full font-medium text-gray-200" type="email" placeholder="Your Email*">
+              </div>
+              <div class="lg:col-span-2">
+                <textarea rows="8" class="p-5 border-none outline-none bg-slate-100 rounded-3xl w-full font-medium text-gray-200" name="" id="" placeholder="Write your message here"></textarea>
+              </div>
+              <button class=" bg-lime-400 lg:col-span-2 rounded-3xl py-3  px-5 text-xl font-extrabold">Send Mail
+                <i class="fa-solid fa-arrow-right rounded-3xl border-black bg-gray-900 text-white p-2 -rotate-45"></i></button>
+              <!-- <div class="lg:col-span-2">
+                <button class="bg-lime-400 rounded-3xl py-3 px-5 text-xl font-extrabold items-center">Send Mail
+                  <i class="fa-solid fa-arrow-right rounded-3xl border-black bg-gray-900 text-white p-2 -rotate-45"></i>
+                </button>
+              </div> -->
+            </div>
+           </div>
+        </div>
+      </section>
    </main>
    <footer></footer>
 </body>
