@@ -34,6 +34,14 @@
               },
               backgroundImage: {
                 'b-project': "url('./assets/bg.jpg')",
+                'living-room': "url('https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?cs=srgb&dl=pexels-jvdm-1457842.jpg&fm=jpg')",
+                'kitchen-room': "url('https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/featured-image-kitchen-layouts.jpg')",
+                'bedroom-room': "url('https://www.shutterstock.com/image-photo/interior-modern-bedroom-white-bed-600nw-2411900229.jpg')",
+                'bathroom-room': "url('https://www.hrjohnsonindia.com/assets/images/blog/fainer-3d.jpg')",
+                'work-room': "url('https://t3.ftcdn.net/jpg/05/86/77/50/360_F_586775051_oSFkBLKDOPgOXEO0mIMF3nYYPdjS2Ygv.webp')",
+                'reading-room': "url('https://png.pngtree.com/thumb_back/fh260/background/20231218/pngtree-sunlight-shining-into-study-room-interior-design-background-image_15519788.png')",
+                'dining-room': "url('https://images.pexels.com/photos/460537/pexels-photo-460537.jpeg?cs=srgb&dl=pexels-pixabay-460537.jpg&fm=jpg')",
+                'guest-room': "url('https://png.pngtree.com/thumb_back/fh260/background/20230620/pngtree-stylish-3d-render-of-a-hotel-s-guest-living-room-featuring-image_3646114.jpg')",
                 
               },
             }
@@ -300,7 +308,33 @@
 
   </section>
 
-
+<!-- Challence Part 01 -->
+<section class="container mx-auto bg-gray-50 py-12">
+  <div class="px-5 lg:px-8">
+    <button class="flex items-center justify-center mx-auto rounded-3xl bg-white py-2 px-4 mb-3 gap-2">
+      <p class="text-gray-600 text-base rounded-full flex justify-center items-center">
+        <i class="fa-solid fa-arrow-right"></i>
+      </p>
+      <a class="font-extrabold text-gray-600">Next House</a>
+    </button>
+    <div class="text-center mb-12">
+      <h1 class="text-3xl font-extrabold text-gray-800">Welcome to Your Dream Home</h1>
+      <p class="text-gray-500 mt-4">Discover the features that make this house a perfect fit for you and your family.</p>
+    </div>
+    <div class="flex flex-col lg:flex-row items-center">
+      
+      <div class="lg:w-1/2 p-5">
+        <h3 class="text-2xl font-bold text-gray-800">Elegant Living Spaces</h3>
+        <p class="text-gray-500 mt-4">Our homes feature open and airy living spaces that are designed for both comfort and style. Enjoy spacious rooms with modern finishes and plenty of natural light.</p>
+        <a class="btn bg-view-green mt-6">Learn More</a>
+      </div>
+      <!-- Image -->
+      <div class="lg:w-1/2 p-6">
+        <img class="w-full h-auto rounded-2xl shadow-lg" src="https://wallpapers.com/images/hd/dream-house-pictures-1800-x-1200-yjphbmq6lkdrikdb.jpg" alt="" >
+      </div>
+    </div>
+  </div>
+</section>
     <!-- Next Project Section -->
       <section class="bg-b-project bg-no-repeat bg-cover border-4 lg:border-8 border-white bg-opacity-5">
         
@@ -340,6 +374,153 @@
 
             </form>
            </div>
+        </div>
+      </section>
+
+      <!-- Challence Part -->
+      <section class="bg-gray-100 py-16">
+        <div class="container mx-auto px-6 lg:px-8">
+          <button class="flex items-center justify-center mx-auto rounded-3xl bg-btn-green py-2 px-4 mb-3 gap-2">
+            <p class="text-gray-600 text-base rounded-full flex justify-center items-center">
+              <i class="fa-solid fa-arrow-right"></i>
+            </p>
+            <a class="font-extrabold text-gray-600">Consumption</a>
+          </button>
+          <div class="text-center mb-12">
+            <h1 class="text-4xl font-extrabold text-gray-800">Income vs Expenses</h1>
+            <p class="text-gray-600 mt-4">Visual representation of income and expenses for different room types.</p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Living Room -->
+            <div class="card bg-living-room bg-cover backdrop-brightness-50 bg-opacity-5 shadow-lg rounded-2xl p-6">
+              <h3 class="text-xl font-semibold text-view-green">Living Room</h3>
+              <div class="mt-4">
+                <div class="text-sm text-view-green mb-2">Income</div>
+                <div class="relative h-4 bg-gray-300 rounded-full mb-4">
+                  <div class="h-full w-[55%] bg-pink-500 rounded-full "></div>
+                  <div class="absolute inset-0 flex items-center justify-center text-xs text-white"> $2000 </div>
+                </div>
+                <div class="text-sm text-view-green mb-2">Expenses</div>
+                <div class="relative h-4 bg-gray-200 rounded-full overflow-hidden">
+                  <div class="h-full w-[45%] bg-red-500 rounded-full"></div>
+                  <div class="absolute inset-0 flex items-center justify-center text-xs text-white"> $1500 </div>
+                </div>
+              </div>
+            </div>
+            <!-- Kitchen -->
+            <div class="card bg-kitchen-room bg-cover backdrop-brightness-50 bg-opacity-5 shadow-lg rounded-2xl p-6">
+              <h3 class="text-xl font-semibold text-view-green">Kitchen</h3>
+              <div class="mt-4">
+                <div class="text-sm text-view-green mb-2">Income</div>
+                <div class="relative h-4 bg-gray-300 rounded-full mb-4">
+                  <div class="h-full w-[60%] bg-pink-500 rounded-full "></div>
+                  <div class="absolute inset-0 flex items-center justify-center text-xs text-white"> $1900 </div>
+                </div>
+                <div class="text-sm text-view-green mb-2">Expenses</div>
+                <div class="relative h-4 bg-gray-200 rounded-full overflow-hidden">
+                  <div class="h-full w-[40%] bg-red-500 rounded-full"></div>
+                  <div class="absolute inset-0 flex items-center justify-center text-xs text-white"> $1400 </div>
+                </div>
+              </div>
+            </div>
+            <!-- Bedroom -->
+            <div class="card bg-bedroom-room bg-cover backdrop-brightness-50 bg-opacity-5 shadow-lg rounded-2xl p-6">
+              <h3 class="text-xl font-semibold text-view-green">Bedroom</h3>
+              <div class="mt-4">
+                <div class="text-sm text-view-green mb-2">Income</div>
+                <div class="relative h-4 bg-gray-300 rounded-full mb-4">
+                  <div class="h-full w-[50%] bg-pink-500 rounded-full "></div>
+                  <div class="absolute inset-0 flex items-center justify-center text-xs text-white"> $1500 </div>
+                </div>
+                <div class="text-sm text-view-green mb-2">Expenses</div>
+                <div class="relative h-4 bg-gray-200 rounded-full overflow-hidden">
+                  <div class="h-full w-[50%] bg-red-500 rounded-full"></div>
+                  <div class="absolute inset-0 flex items-center justify-center text-xs text-white"> $1200 </div>
+                </div>
+              </div>
+            </div>
+            <!-- Bathroom -->
+            <div class="card bg-bathroom-room bg-cover backdrop-brightness-50 bg-opacity-5 shadow-lg rounded-2xl p-6">
+              <h3 class="text-xl font-semibold text-view-green">Bathroom</h3>
+              <div class="mt-4">
+                <div class="text-sm text-view-green mb-2">Income</div>
+                <div class="relative h-4 bg-gray-300 rounded-full mb-4">
+                  <div class="h-full w-[40%] bg-pink-500 rounded-full "></div>
+                  <div class="absolute inset-0 flex items-center justify-center text-xs text-white"> $1200 </div>
+                </div>
+                <div class="text-sm text-view-green mb-2">Expenses</div>
+                <div class="relative h-4 bg-gray-200 rounded-full overflow-hidden">
+                  <div class="h-full w-[60%] bg-red-500 rounded-full"></div>
+                  <div class="absolute inset-0 flex items-center justify-center text-xs text-white"> $1400 </div>
+                </div>
+              </div>
+            </div>
+            <!-- Work Room -->
+            <div class="card bg-work-room bg-cover backdrop-brightness-50 bg-opacity-5 shadow-lg rounded-2xl p-6">
+              <h3 class="text-xl font-semibold text-view-green">Work Room</h3>
+              <div class="mt-4">
+                <div class="text-sm text-view-green mb-2">Income</div>
+                <div class="relative h-4 bg-gray-300 rounded-full mb-4">
+                  <div class="h-full w-[80%] bg-pink-500 rounded-full "></div>
+                  <div class="absolute inset-0 flex items-center justify-center text-xs text-white"> $2000 </div>
+                </div>
+                <div class="text-sm text-view-green mb-2">Expenses</div>
+                <div class="relative h-4 bg-gray-200 rounded-full overflow-hidden">
+                  <div class="h-full w-[20%] bg-red-500 rounded-full"></div>
+                  <div class="absolute inset-0 flex items-center justify-center text-xs text-white"> $800 </div>
+                </div>
+              </div>
+            </div>
+            <!-- Reading Room -->
+            <div class="card bg-reading-room bg-cover backdrop-brightness-50 bg-opacity-5 shadow-lg rounded-2xl p-6">
+              <h3 class="text-xl font-semibold text-view-green">Reading Room</h3>
+              <div class="mt-4">
+                <div class="text-sm text-view-green mb-2">Income</div>
+                <div class="relative h-4 bg-gray-300 rounded-full mb-4">
+                  <div class="h-full w-[70%] bg-pink-500 rounded-full "></div>
+                  <div class="absolute inset-0 flex items-center justify-center text-xs text-white"> $1700 </div>
+                </div>
+                <div class="text-sm text-view-green mb-2">Expenses</div>
+                <div class="relative h-4 bg-gray-200 rounded-full overflow-hidden">
+                  <div class="h-full w-[30%] bg-red-500 rounded-full"></div>
+                  <div class="absolute inset-0 flex items-center justify-center text-xs text-white"> $1300 </div>
+                </div>
+              </div>
+            </div>
+            <!-- Dining Room -->
+            <div class="card bg-dining-room bg-cover backdrop-brightness-50 bg-opacity-5 shadow-lg rounded-2xl p-6">
+              <h3 class="text-xl font-semibold text-view-green">Dining Room</h3>
+              <div class="mt-4">
+                <div class="text-sm text-view-green mb-2">Income</div>
+                <div class="relative h-4 bg-gray-300 rounded-full mb-4">
+                  <div class="h-full w-[55%] bg-pink-500 rounded-full "></div>
+                  <div class="absolute inset-0 flex items-center justify-center text-xs text-white"> $1400 </div>
+                </div>
+                <div class="text-sm text-view-green mb-2">Expenses</div>
+                <div class="relative h-4 bg-gray-200 rounded-full overflow-hidden">
+                  <div class="h-full w-[45%] bg-red-500 rounded-full"></div>
+                  <div class="absolute inset-0 flex items-center justify-center text-xs text-white"> $1200 </div>
+                </div>
+              </div>
+            </div>
+            <!-- Guest Room -->
+            <div class="card bg-guest-room bg-cover backdrop-brightness-50 bg-opacity-5 shadow-lg rounded-2xl p-6">
+              <h3 class="text-xl font-semibold text-view-green">Guest Room</h3>
+              <div class="mt-4">
+                <div class="text-sm text-view-green mb-2">Income</div>
+                <div class="relative h-4 bg-gray-300 rounded-full mb-4">
+                  <div class="h-full w-[20%] bg-pink-500 rounded-full "></div>
+                  <div class="absolute inset-0 flex items-center justify-center text-xs text-white"> $500 </div>
+                </div>
+                <div class="text-sm text-view-green mb-2">Expenses</div>
+                <div class="relative h-4 bg-gray-200 rounded-full overflow-hidden">
+                  <div class="h-full w-[80%] bg-red-500 rounded-full"></div>
+                  <div class="absolute inset-0 flex items-center justify-center text-xs text-white"> $1200 </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
         </div>
       </section>
    </main>
